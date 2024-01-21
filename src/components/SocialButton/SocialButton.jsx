@@ -9,13 +9,13 @@ import PropTypes from "prop-types";
 const SocialButton = ({ socialicon }) => {
   return (
     <>
-      {socialicon === "facebook" && (
+    <button className="icon">{socialicon === "facebook" && (
         <FontAwesomeIcon icon={faFacebook} size="3x" />
       )}
       {socialicon === "github" && <FontAwesomeIcon icon={faGithub} size="3x" />}
       {socialicon === "linkedin" && (
         <FontAwesomeIcon icon={faLinkedin} size="3x" />
-      )}
+      )}</button>
     </>
   );
 };

@@ -5,7 +5,9 @@
   text-align: center;
 
 }
-
+body{
+  background-color: white;
+}
 h1 {
   margin: 2rem;
 }
